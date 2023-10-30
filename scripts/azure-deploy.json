@@ -141,7 +141,7 @@
             "appSettings": [
               {
                 "name": "StorageAccountName",
-                "value": "[format('DefaultEndpointsProtocol=https;AccountName={0};EndpointSuffix={1};AccountKey={2}', variables('AzureStorageAccountName'), environment().suffixes.storage, listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('AzureStorageAccountName')), '2022-05-01').keys[0].value)]"
+                "value": "[toLower(parameters('AzureStorageAccountName'))]"
               },
                {
                 "name": "StorageAccountContainer",
