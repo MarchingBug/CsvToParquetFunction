@@ -55,7 +55,7 @@
       },
       "packageUri": {
         "type": "string",
-        "defaultValue": "https://github.com/MarchingBug/CsvToParquetFunction/raw/main/scripts/ProcessAndUpload.zip",
+        "defaultValue": "https://github.com/MarchingBug/CsvToParquetFunction/raw/master/scripts/ProcessAndUpload.zip",
         "metadata": {
           "description": "The zip content url."
         }
